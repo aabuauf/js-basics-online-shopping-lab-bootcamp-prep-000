@@ -21,6 +21,7 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   for (var i= 0; i< cart.length;i++){
+    if (cart.length<1){return 
    itemName = cart[i].itemName
    itemPrice = cart[i].itemPrice
     name = " " + itemName + " at $" + itemPrice + ","
