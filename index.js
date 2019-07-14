@@ -28,7 +28,8 @@ function viewCart() {
       name = " " + itemName + " at $" + itemPrice + "."
     }
   }
-  name = 
+  name = "In your cart, you have" + name
+  return name
 }
 
 function total() {
