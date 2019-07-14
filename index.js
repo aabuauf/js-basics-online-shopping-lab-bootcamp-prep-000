@@ -20,8 +20,9 @@ function addToCart(item) {
 
 function viewCart() {
   // write your code here
+  if (cart.length<1){return "Your shopping cart is empty."}
   for (var i= 0; i< cart.length;i++){
-    if (cart.length<1){return "Your shopping cart is empty."}
+    
    itemName = cart[i].itemName
    itemPrice = cart[i].itemPrice
     name = " " + itemName + " at $" + itemPrice + ","
