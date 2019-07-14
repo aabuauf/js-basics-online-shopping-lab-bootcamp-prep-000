@@ -60,10 +60,9 @@ function removeFromCart(item) {
     if (itemName===item){
       cart.splice(i,1)
       found = 1
-      itemPos = i
     }
   }
-  if (found === 0){"That item is not in your cart."}
+  if (found === 0){ return "That item is not in your cart."}
 }
 
 function placeOrder(cardNumber) {
