@@ -23,8 +23,8 @@ function viewCart() {
   if (cart.length<1){return "Your shopping cart is empty."}
   for (var i= 0; i< cart.length;i++){
     
-   itemName = cart[i].itemName
-   itemPrice = cart[i].itemPrice
+   var itemName = cart[i].itemName
+   var itemPrice = cart[i].itemPrice
     name = " " + itemName + " at $" + itemPrice + ","
     if (i===cart.length+1){
       name = " " + itemName + " at $" + itemPrice + "."
