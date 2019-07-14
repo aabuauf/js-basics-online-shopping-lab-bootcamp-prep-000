@@ -21,9 +21,14 @@ function addToCart(item) {
 function viewCart() {
   // write your code here
   for (var i= 0; i< cart.length;i++){
-   itemName = cart[i]
-    name = cart[i]
+   itemName = cart[i].itemName
+   itemPrice = cart[i].itemPrice
+    name = " " + itemName + " at $" + itemPrice + ","
+    if (i===cart.length+1){
+      name = " " + itemName + " at $" + itemPrice + "."
+    }
   }
+  name = 
 }
 
 function total() {
