@@ -12,7 +12,8 @@ function setCart(c) {
 function addToCart(item) {
  // write your code here
  var object = new Object();
- 
+ object[itemName]=item
+ object[itemPrice]=
 }
 
 function viewCart() {
