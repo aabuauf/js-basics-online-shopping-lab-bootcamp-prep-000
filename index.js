@@ -62,7 +62,7 @@ function removeFromCart(item) {
       fount = 1
     }
   }
-  if (found === 0){}
+  if (found === 0){"That item is not in your cart."}
 }
 
 function placeOrder(cardNumber) {
