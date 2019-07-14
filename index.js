@@ -13,7 +13,7 @@ function addToCart(item) {
  // write your code here
  var object = new Object();
  object[itemName]=item
- object[itemPrice]=
+ object[itemPrice]=Math.random()
 }
 
 function viewCart() {
