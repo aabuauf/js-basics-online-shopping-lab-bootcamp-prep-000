@@ -26,9 +26,11 @@ function viewCart() {
     
    var itemName = cart[i].itemName
    var itemPrice = cart[i].itemPrice
-    name =name + " " + itemName + " at $" + itemPrice + ","
+    
     if (i===cart.length-1){
       name =name +  " " + itemName + " at $" + itemPrice + "."
+    }else{
+      name =name + " " + itemName + " at $" + itemPrice + ","
     }
   }
   name = "In your cart, you have" + name
