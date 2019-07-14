@@ -15,6 +15,7 @@ function addToCart(item) {
  object["itemName"]=item
  object["itemPrice"]=Math.floor(Math.random() * 100);
  cart.push(object)
+ return item
 }
 
 function viewCart() {
