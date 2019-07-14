@@ -28,7 +28,7 @@ function viewCart() {
    var itemPrice = cart[i].itemPrice
     
     if (i===cart.length-1){
-      name =name +  " " + itemName + " at $" + itemPrice + "."
+      name =name +  " and" + itemName + " at $" + itemPrice + "."
     }else{
       name =name + " " + itemName + " at $" + itemPrice + ","
     }
